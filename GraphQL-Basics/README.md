@@ -13,4 +13,31 @@ This gives us ultimate flexibility in how our API can resolve data, and client q
   * Query Definitions
   * Mutation Definitions
   * Composition
+  * Schema
 
+# Client Side - What Do We Need?
+  * Queries
+  * Mutations
+  * Fragments
+
+## Where Does GraphQL Fit In?
+  * A GraphQL server with a connected DB (most greenfields)
+  * A GraphQL server as a layer in front of many 3rd part services and connects them all with one GraphQL API
+  * A hybrid approach where a GraphQL server has a connected DB and also communicates with 3rd party services
+
+### Node GraphQL Tools
+  * Servers
+    * Apollo Server
+    * GraphQL Yoga
+
+  * Services
+    * Amplify
+  
+  * Tools
+    * Prisma
+
+# Schemas
+
+## Creating a Schema
+  * Using Schema Definition Language (SDL)
+  * 
