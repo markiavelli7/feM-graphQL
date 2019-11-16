@@ -14,7 +14,6 @@ A Type on a Schema that defines operations clients can perform to mutate data (c
 
 ```javascript
 # schema.js
-
 input NewShoeInput {
   brand: String!
   size: Int!
